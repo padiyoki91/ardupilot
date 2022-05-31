@@ -119,6 +119,7 @@ BARO MS56XX I2C:0:0x77
 
 # also allow for probing of external barometers
 define HAL_PROBE_EXTERNAL_I2C_BAROS
+define HAL_BARO_ALLOW_INIT_NO_BARO
 
 # look for internal I2C compass
 COMPASS HMC5843 I2C:0:0x1E false ROTATION_YAW_270
